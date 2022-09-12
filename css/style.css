@@ -1,0 +1,74 @@
+.root{
+    --maincolor:#f25454;
+}
+.i1{
+    background-image: url(../images/slideshow-1.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.i2{
+    background-image: url(../images/slideshow-2.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.i3{
+    background-image: url(../images/slideshow-3.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav-link a:hover{
+color: #f25454;
+}
+.title h2{
+    letter-spacing: 5px;
+}
+.title h3{
+    color: #f1f1f1;
+    font-size: 60px;
+}
+.lower{
+    position: relative;
+    background-color:#f1f1f1;
+    height: 5px;
+}
+.upper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background-color: var(--maincolor);
+  
+}
+.clr{
+    clear: both;
+}
+#services{
+    background-color: #f1f1f1;
+}
+#contact{
+    background-color: #f1f1f1;
+}
+.black{
+    background-image: url(../images/dotted-map.png);
+    background-size: cover;
+    background-position: center center;
+}
+.employees img:hover{
+    opacity: 1;
+}
+#services i{
+    color:#f25454;
+}
+.item h6 a{
+    text-decoration: none;
+    color: black;
+}
+.item h6 a:hover{
+    color:#f25454;
+}
